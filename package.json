@@ -1,0 +1,17 @@
+{
+  "name": "babel-template-curly-repro",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/eslint-plugin": "^7.13.10",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "eslint": "^7.21.0",
+    "rollup": "^2.41.0"
+  },
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c"
+  }
+}
